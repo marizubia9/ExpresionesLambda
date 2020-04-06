@@ -41,6 +41,7 @@ public class StreamsApp {
 	
 	public void limitar(){
 		lista.stream().limit(2).forEach(System.out::println);
+	
 	}
 	
 	public void contar(){
@@ -54,7 +55,7 @@ public class StreamsApp {
 		//app.ordenar();
 		//app.transformar();
 		//app.limitar();
-		app.contar();
+		//app.contar();
 		
 	}
 }
